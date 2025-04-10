@@ -207,5 +207,4 @@ Circuit Breaker es esencial en sistemas resilientes. Al evitar que una parte fal
 
 ## 📌 **Referencias**
 
-- [Documentación oficial de patrones de diseño](https://refactoring.guru/es/design-patterns/strategy)
-- [Ejemplo en GitHub](https://github.com/borispacex/design-pattern-strategy)
+- [Ejemplo en GitHub](https://github.com/borispacex/circuit-breaker-dh)
