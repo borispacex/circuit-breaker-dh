@@ -193,10 +193,10 @@ public class PaymentController {
   ![imagen1](/images/img1.png)
 
 - Realizamos fallos (http://localhost:8080/circuit-breaker-demo/processPayment)
-  ![imagen2](/images/img2.png)
+  ![imagen3](/images/img3.png)
 
 - Observamos que cambia el estado (http://localhost:8080/circuit-breaker-demo/actuator/circuitbreakers)
-  ![imagen3](/images/img3.png)
+  ![imagen2](/images/img2.png)
 
 - Permite implementar lógica de fallback personalizada.
   ![descripcion](/images/img.png)
