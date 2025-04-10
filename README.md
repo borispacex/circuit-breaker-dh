@@ -40,6 +40,8 @@ Circuit Breaker utiliza **tres estados principales**:
     - Si estas llamadas son exitosas, el circuito vuelve a cerrado.
     - Si fallan, se vuelve a abrir.
 
+![imagen](/images/img.png)
+
 ---
 
 ## 🧩 ¿Qué tipos hay?
@@ -197,9 +199,6 @@ public class PaymentController {
 
 - Observamos que cambia el estado (http://localhost:8080/circuit-breaker-demo/actuator/circuitbreakers)
   ![imagen2](/images/img2.png)
-
-- Permite implementar lógica de fallback personalizada.
-  ![descripcion](/images/img.png)
 
 ## 🧠 Conclusión
 
